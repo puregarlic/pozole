@@ -48,7 +48,7 @@
 
   .answer {
     height: fit-content;
-    font-size: 40rem;
+    font-size: 29rem;
     font-weight: 700;
     line-height: 0.8;
   }
