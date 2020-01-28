@@ -8,7 +8,7 @@
 
   async function getPozoleStatus() {
     let res = await ky("/api").json();
-    if (!res.hasPozole) {
+    if (res.hasPozole) {
       title = "There's pozole!";
       icon = "thumbs-up"
     } else {
